@@ -187,7 +187,7 @@
         <stringProp name="TestPlan.comments">THREAD = USER</stringProp>
       </CSVDataSet>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group - COMPLETED">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="BookStore - COMPLETED">
         <stringProp name="ThreadGroup.num_threads">${__P(users,1)}</stringProp>
         <stringProp name="ThreadGroup.ramp_time">${__P(rampup,10)}</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
@@ -894,7 +894,7 @@
             </hashTree>
           </hashTree>
         </hashTree>
-        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="Delete Book Scenario"/>
+        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="Delete Book Scenario" enabled="true"/>
         <hashTree>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="S01_DeleteBook_T01_Launch" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
